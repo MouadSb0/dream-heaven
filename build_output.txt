@@ -1,0 +1,91 @@
+﻿
+> dreamhaven-architect@0.1.0 build
+> next build
+
+Ôû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : 
+Au caractère Ligne:1 : 1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (:String  
+  ) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+> Build error occurred
+Error: Turbopack build 
+failed with 2 errors:
+./src/app/client-questionnair
+e/page.tsx:1:17
+Ecmascript file had an error
+[0m[31m[1m>[22m[39m[90m
+ 1 |[39m [36mimport[39m 
+[33mReact[39m[33m,[39m { 
+useState } [36mfrom[39m 
+[32m'react'[39m[33m;[39m
+ [90m   |[39m              
+   [31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m'next/lin
+k'[39m[33m;[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mHome[39m[33m,[39m [3
+3mChevronLeft[39m[33m,[39m
+ [33mSend[39m[33m,[39m 
+[33mSparkles[39m } 
+[36mfrom[39m [32m'lucide-r
+eact'[39m[33m;[39m
+ [90m 4 |[39m[0m
+
+You're importing a component 
+that needs `useState`. This 
+React Hook only works in a 
+Client Component. To fix, 
+mark the file (or its 
+parent) with the `"use 
+client"` directive.
+
+ Learn more: https://nextjs.o
+rg/docs/app/api-reference/dir
+ectives/use-client
+
+
+
+
+./src/app/client-questionnair
+e
+Invalid import
+'client-only' cannot be 
+imported from a Server 
+Component module. It should 
+only be used from a Client 
+Component.
+The error was caused by 
+using 'styled-jsx'. It only 
+works in a Client Component 
+but none of its parents are 
+marked with "use client", so 
+they're Server Components by 
+default.
+
+
+
+    at <unknown> (./src/app/c
+lient-questionnaire/page.tsx:
+1:17)

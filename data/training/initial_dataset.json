@@ -1,0 +1,6552 @@
+[
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 821",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 529",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Opera House.",
+    "design": {
+      "projectName": "Project Opera 53",
+      "performanceType": "Opera House",
+      "totalCapacity": 3456,
+      "dimensions": {
+        "width": 80,
+        "length": 120,
+        "height": 35
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 2304,
+          "polygon": [
+            {
+              "x": 8,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 120
+            },
+            {
+              "x": 8,
+              "y": 120
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 35,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 4320,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 84
+            },
+            {
+              "x": 4,
+              "y": 84
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 28,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 32,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 4
+            },
+            {
+              "x": 36,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 960,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 132
+            },
+            {
+              "x": 0,
+              "y": 132
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 21
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 384",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 185",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 871",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A grand opera house with gold-leaf accents and perfect acoustics. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 41",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 62",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 468",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 416",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Opera House.",
+    "design": {
+      "projectName": "Project Opera 513",
+      "performanceType": "Opera House",
+      "totalCapacity": 3456,
+      "dimensions": {
+        "width": 80,
+        "length": 120,
+        "height": 35
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 2304,
+          "polygon": [
+            {
+              "x": 8,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 120
+            },
+            {
+              "x": 8,
+              "y": 120
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 35,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 4320,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 84
+            },
+            {
+              "x": 4,
+              "y": 84
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 28,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 32,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 4
+            },
+            {
+              "x": 36,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 960,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 132
+            },
+            {
+              "x": 0,
+              "y": 132
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 21
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 998",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 107",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 896",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 698",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 385",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 171",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 878",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 493",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A grand opera house with gold-leaf accents and perfect acoustics. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 539",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 768",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A grand opera house with gold-leaf accents and perfect acoustics. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 677",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 85",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Opera House.",
+    "design": {
+      "projectName": "Project Opera 351",
+      "performanceType": "Opera House",
+      "totalCapacity": 3456,
+      "dimensions": {
+        "width": 80,
+        "length": 120,
+        "height": 35
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 2304,
+          "polygon": [
+            {
+              "x": 8,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 120
+            },
+            {
+              "x": 8,
+              "y": 120
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 35,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 4320,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 84
+            },
+            {
+              "x": 4,
+              "y": 84
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 28,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 32,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 4
+            },
+            {
+              "x": 36,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 960,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 132
+            },
+            {
+              "x": 0,
+              "y": 132
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 21
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A grand opera house with gold-leaf accents and perfect acoustics. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 215",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 467",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 820",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 142",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 5",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 289",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Opera House.",
+    "design": {
+      "projectName": "Project Opera 284",
+      "performanceType": "Opera House",
+      "totalCapacity": 3456,
+      "dimensions": {
+        "width": 80,
+        "length": 120,
+        "height": 35
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 2304,
+          "polygon": [
+            {
+              "x": 8,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 120
+            },
+            {
+              "x": 8,
+              "y": 120
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 35,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 4320,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 84
+            },
+            {
+              "x": 4,
+              "y": 84
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 28,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 32,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 4
+            },
+            {
+              "x": 36,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 960,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 132
+            },
+            {
+              "x": 0,
+              "y": 132
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 21
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Opera House.",
+    "design": {
+      "projectName": "Project Opera 679",
+      "performanceType": "Opera House",
+      "totalCapacity": 3456,
+      "dimensions": {
+        "width": 80,
+        "length": 120,
+        "height": 35
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 2304,
+          "polygon": [
+            {
+              "x": 8,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 120
+            },
+            {
+              "x": 8,
+              "y": 120
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 35,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 4320,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 84
+            },
+            {
+              "x": 4,
+              "y": 84
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 28,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 32,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 4
+            },
+            {
+              "x": 36,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 960,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 132
+            },
+            {
+              "x": 0,
+              "y": 132
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 21
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 21",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A grand opera house with gold-leaf accents and perfect acoustics. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 863",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 500",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 32",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 14",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 1",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Opera House.",
+    "design": {
+      "projectName": "Project Opera 97",
+      "performanceType": "Opera House",
+      "totalCapacity": 3456,
+      "dimensions": {
+        "width": 80,
+        "length": 120,
+        "height": 35
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 2304,
+          "polygon": [
+            {
+              "x": 8,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 120
+            },
+            {
+              "x": 8,
+              "y": 120
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 35,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 4320,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 84
+            },
+            {
+              "x": 4,
+              "y": 84
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 28,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 32,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 4
+            },
+            {
+              "x": 36,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 960,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 132
+            },
+            {
+              "x": 0,
+              "y": 132
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 21
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A grand opera house with gold-leaf accents and perfect acoustics. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 180",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A grand opera house with gold-leaf accents and perfect acoustics. Performance Style: Opera House.",
+    "design": {
+      "projectName": "Project Opera 283",
+      "performanceType": "Opera House",
+      "totalCapacity": 3456,
+      "dimensions": {
+        "width": 80,
+        "length": 120,
+        "height": 35
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 2304,
+          "polygon": [
+            {
+              "x": 8,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 120
+            },
+            {
+              "x": 8,
+              "y": 120
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 35,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 4320,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 84
+            },
+            {
+              "x": 4,
+              "y": 84
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 28,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 32,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 4
+            },
+            {
+              "x": 36,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 960,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 132
+            },
+            {
+              "x": 0,
+              "y": 132
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 21
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 620",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 370",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Theatre.",
+    "design": {
+      "projectName": "Project Theatre 151",
+      "performanceType": "Theatre",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Gallery.",
+    "design": {
+      "projectName": "Project Gallery 568",
+      "performanceType": "Gallery",
+      "totalCapacity": 540,
+      "dimensions": {
+        "width": 30,
+        "length": 50,
+        "height": 12
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 360,
+          "polygon": [
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 35
+            },
+            {
+              "x": 27,
+              "y": 50
+            },
+            {
+              "x": 3,
+              "y": 50
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 12,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 675,
+          "polygon": [
+            {
+              "x": 1.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 10
+            },
+            {
+              "x": 28.5,
+              "y": 35
+            },
+            {
+              "x": 1.5,
+              "y": 35
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 9.600000000000001,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 12,
+          "polygon": [
+            {
+              "x": 13.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 0
+            },
+            {
+              "x": 16.5,
+              "y": 4
+            },
+            {
+              "x": 13.5,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 150,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 55
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 7.199999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A grand opera house with gold-leaf accents and perfect acoustics. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 962",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A modern concert hall with floating acoustic panels and a glass lobby. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 607",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A boutique gallery space designed for immersive VR installations. Performance Style: Black Box.",
+    "design": {
+      "projectName": "Project Black 11",
+      "performanceType": "Black Box",
+      "totalCapacity": 144,
+      "dimensions": {
+        "width": 20,
+        "length": 20,
+        "height": 8
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 96,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 14
+            },
+            {
+              "x": 18,
+              "y": 20
+            },
+            {
+              "x": 2,
+              "y": 20
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 8,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 180,
+          "polygon": [
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 4
+            },
+            {
+              "x": 19,
+              "y": 14
+            },
+            {
+              "x": 1,
+              "y": 14
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 6.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 8,
+          "polygon": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 0
+            },
+            {
+              "x": 11,
+              "y": 4
+            },
+            {
+              "x": 9,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 40,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 0,
+              "y": 22
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 4.8
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A community theatre with an open-air stage and flexible seating. Performance Style: Opera House.",
+    "design": {
+      "projectName": "Project Opera 418",
+      "performanceType": "Opera House",
+      "totalCapacity": 3456,
+      "dimensions": {
+        "width": 80,
+        "length": 120,
+        "height": 35
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 2304,
+          "polygon": [
+            {
+              "x": 8,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 84
+            },
+            {
+              "x": 72,
+              "y": 120
+            },
+            {
+              "x": 8,
+              "y": 120
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 35,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 4320,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 24
+            },
+            {
+              "x": 76,
+              "y": 84
+            },
+            {
+              "x": 4,
+              "y": 84
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 28,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 32,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 0
+            },
+            {
+              "x": 44,
+              "y": 4
+            },
+            {
+              "x": 36,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 960,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 120
+            },
+            {
+              "x": 80,
+              "y": 132
+            },
+            {
+              "x": 0,
+              "y": 132
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 21
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  },
+  {
+    "prompt": "A minimalist black box theatre for experimental dance performances. Performance Style: Concert Hall.",
+    "design": {
+      "projectName": "Project Concert 207",
+      "performanceType": "Concert Hall",
+      "totalCapacity": 864,
+      "dimensions": {
+        "width": 40,
+        "length": 60,
+        "height": 18
+      },
+      "zones": [
+        {
+          "id": "zone-stage-1",
+          "name": "Main Stage",
+          "type": "stage",
+          "area": 576,
+          "polygon": [
+            {
+              "x": 4,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 42
+            },
+            {
+              "x": 36,
+              "y": 60
+            },
+            {
+              "x": 4,
+              "y": 60
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 18,
+            "acousticRating": "A+"
+          }
+        },
+        {
+          "id": "zone-seating-1",
+          "name": "Auditorium Seating",
+          "type": "seating",
+          "area": 1080,
+          "polygon": [
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 12
+            },
+            {
+              "x": 38,
+              "y": 42
+            },
+            {
+              "x": 2,
+              "y": 42
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 14.4,
+            "acousticRating": "A"
+          }
+        },
+        {
+          "id": "zone-tech-1",
+          "name": "Technical Control Booth",
+          "type": "technical",
+          "area": 16,
+          "polygon": [
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 0
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 3,
+            "powerCapacity": "100kW"
+          }
+        },
+        {
+          "id": "zone-backstage-1",
+          "name": "Backstage & Loading",
+          "type": "backstage",
+          "area": 240,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 66
+            },
+            {
+              "x": 0,
+              "y": 66
+            }
+          ],
+          "technicalRequirements": {
+            "ceilingHeight": 10.799999999999999
+          }
+        }
+      ],
+      "metadata": {
+        "styleSource": "AI Generated Baseline",
+        "isSynthetic": true,
+        "aiModelVersion": "dreamhaven-architect-v1-seed"
+      }
+    }
+  }
+]
