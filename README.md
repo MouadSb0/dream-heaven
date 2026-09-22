@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DreamHeaven
+
+**Describe a building. Get a 3D model.**
+
+DreamHeaven turns a written prompt into a 3D model of a house or building. Type what you want — *"a two-story modern house with a flat roof and a south-facing deck"* — and DreamHeaven generates a model you can view and rotate in the browser, so you can explore a design idea before committing to it.
+
+**[Live Demo](https://your-demo.vercel.app)** · **[Report a Bug](../../issues)** · **[Request a Feature](../../issues)**
+
+![DreamHeaven generating a 3D model from a prompt](./public/demo.gif)
+
+---
+
+## What it does
+
+- **Prompt to model** — describe a house or building in plain language and get a 3D model back
+- **Interactive viewer** — rotate, zoom, and inspect the result directly in the browser
+- **Iterate** — refine your prompt and regenerate until the design matches what you had in mind
+- **[Export]** — [download the model for use elsewhere]
+
+## Who it's for
+
+Anyone who wants to sketch out a building idea without CAD software — homeowners planning a renovation, designers exploring early concepts, or anyone curious what their description looks like in three dimensions.
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| 3D Rendering | [Three.js / React Three Fiber] |
+| Model Generation | [your generation approach] |
+| Deployment | Vercel |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) v18 or higher
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/MouadSaber/DreamHeaven.git
+cd DreamHeaven
+npm install
