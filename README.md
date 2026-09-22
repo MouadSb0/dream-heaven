@@ -4,7 +4,7 @@
 
 DreamHeaven turns a written prompt into a 3D model of a house or building. Type what you want — *"a two-story modern house with a flat roof and a south-facing deck"* — and DreamHeaven generates a model you can view and rotate in the browser, so you can explore a design idea before committing to it.
 
-**[Live Demo](https://your-demo.vercel.app)** · **[Report a Bug](../../issues)** · **[Request a Feature](../../issues)**
+**[Live Demo](https://your-demo.vercel.app)** · 
 
 ![DreamHeaven generating a 3D model from a prompt](./public/demo.gif)
 
